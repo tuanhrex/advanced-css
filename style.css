@@ -1,0 +1,33 @@
+.container {
+    background-color: goldenrod;
+    height: 300px;
+    width: 300px;
+    color: green;
+}
+
+.another {
+    background-color: violet;
+    height: 300px;
+    width: 300px;
+}
+
+.container:hover .another {
+    background-color: green;
+    color: goldenrod;
+    cursor: pointer;
+
+}
+
+@media (max-width: 600px) {
+    .container {
+        background-color: red;
+        height: 300px;
+        width: 300px;
+    }
+    .another {
+        background-color: yellowgreen;
+        height: 100px;
+        width: 100px;
+    }
+    
+}
